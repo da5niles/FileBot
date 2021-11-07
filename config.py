@@ -44,7 +44,7 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True':
     DISABLE_CHANNEL_BUTTON = True
 else:
-    DISABLE_CHANNEL_BUTTON = False
+    DISABLE_CHANNEL_BUTTON = True
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
